@@ -342,9 +342,80 @@ console.log(myName);
 console.log(myName);
 */
 
+/*
+var x = 1;
 
+function changeXto2(){
 
+    "use strict"
 
+    var x = 2;
+}
+function changeXto3(){
 
+    "use strict"
 
+    var x = 3;
+}
+console.log(x); // 1
+
+changeXto2();
+
+console.log(x); // 1
+
+changeXto3();
+
+console.log(x); //1 
+*/
+/*
+var x = 1;
+
+function changeXto2() {
+
+    "use strict"
+
+     x = 2;
+}
+
+function changeXto3() {
+
+    "use strict"
+
+     var x = 3;
+}
+console.log(x); // 1
+
+changeXto2();
+
+console.log(x); // 2
+
+changeXto3();
+
+console.log(x); // 2
+*/
+
+var x = 1;
+
+function changeXto2() {
+
+    "use strict"
+
+     x = 2;
+}
+
+function changeXto3() {
+
+    "use strict"
+
+      x = 3;
+}
+console.log(x); // 1
+
+changeXto2();
+
+console.log(x); // 2
+
+changeXto3();
+
+console.log(x); // 2
 
